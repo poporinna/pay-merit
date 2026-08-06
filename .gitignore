@@ -1,0 +1,29 @@
+# dependencies / build output
+node_modules/
+dist/
+.vite_cache/
+*.tsbuildinfo
+
+# env — commit .env and .env.example only; never local overrides
+.env.local
+.env.*.local
+
+# secrets — never commit keys or mnemonics
+*.key
+*.pem
+secrets*.json
+
+# vercel
+.vercel/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# os / logs
+.DS_Store
+Thumbs.db
+*.log
